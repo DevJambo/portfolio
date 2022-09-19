@@ -3,8 +3,40 @@
     <head>
     <title>Contact Me</title>
     <h1>Contact Me</h1>
+    <p>Please contact me using the following:</p>
     </head>
     <body>
+        <form>
+            <fieldset>
+                <legend>Contact Details:</legend>
+                <label>
+                    Full Name:
+                    <input type="text" name="name">
+                </label>
+                <label>
+                    Email Address:
+                    <input type="email" name="email">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Reason For Contacting Me:</legend>
+                <input type="checkbox" id="reason1">
+                <label for="reason1">To see how I'm doing</label>
+                <br>
+                <input type="checkbox" id="reason2">
+                <label for="reason2">Because I owe you money</label> 
+                <br>
+                <input type="checkbox" id="reason3">
+                <label for="reason3">To troll me</label> 
+                <br>
+                <input type="checkbox" id="reason4">
+                <label for="reason4">Attempting to locate me in order to collect the bounty on my head</label>
+            </fieldset>
+            <fieldset>
+                <legend>Further Comments</legend>
+                <textarea name="furthercomments" placeholder="Enter further comments here"></textarea>
+            </fieldset>
+        </form>
     </body>
 </html>
     
