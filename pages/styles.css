@@ -1,32 +1,40 @@
+:root {
+   --gradient-background: linear-gradient(65deg,rgba(133, 16, 133, 0.6), rgb(166, 110, 6))
+}
+
 * {
    font-family: 'Russo One', sans-serif;
 }
 h1 {  
+    display: flex;
+    justify-content: center;
     padding: 10px;
     margin: 10px;
-    border: solid black;
-    background-color: rgba(255, 240, 254, 0.626);
+    border: solid white 3px;
+    background-color: rgba(135, 50, 130, 0.626);
     font-family: 'Bungee Spice', cursive;
     font-size: 70px;
     height: fit-content;
-
+    text-decoration: underline orange;
 }
 .superform {
-    background-image: linear-gradient(75deg,rgba(133, 16, 133, 0.6), rgb(166, 110, 6));
-    border: solid rebeccapurple;
+    background-image: var(--gradient-background);
+    border: solid white 3px;
     margin: 10px;
     padding: 10px;
-    width:fit-content ;
+    width:fit-content;
+    font-size: 20px;
 }
 #pleaseContactMe {
     font-size: 20px;
-    background-image: linear-gradient(75deg,rgba(133, 16, 133, 0.6), rgba(166, 110, 6, 0.9));
-    border: solid rebeccapurple;
+    background-image: var(--gradient-background);
+    border: solid white 3px;
     margin: 10px;
     padding: 10px;
     width:fit-content;
     font-size: 25px;
     font-weight: bold;
+    height: fit-content;
 }
 #box:checked + label {
     color: green;
@@ -45,22 +53,10 @@ p {
  a[href] {
     background-image: linear-gradient(75deg,rgba(133, 16, 133, 0.6), rgba(166, 110, 6, 0.9));
     text-decoration: none;
-    border: solid black;
+    border: solid white 3px;
     padding: 10px;
     color: floralwhite;
  }
- .profile-pic {
-    padding: 10px;
-    border: solid aquamarine; 
-    margin: 10px;
- }
- .div-element {
-    height: 100px;
-    width: 100px;
-    color: white;
-    background-color: red;
- }
- 
  .myPic {
     width: 200px;
     height: 200px;
@@ -68,7 +64,7 @@ p {
  #mainheader {
     display: flex;
     justify-content: flex-start;
-    border: solid black;
+    border: solid white 3px;
     margin: 10px;
     padding: 10px;
     background: url(/images/cybercity.jpg);
@@ -80,10 +76,10 @@ p {
    display: flex;
    justify-content: space-around;
    width: 250px;
-   border: solid black;
+   border: solid white 3px;
  }
  main {
-    border: solid palevioletred;
+    border: solid white 3px;
     margin: 10px;
     padding: 10px;
     background: url(/images/solen3.jpg);
@@ -92,7 +88,7 @@ p {
     font-weight: bold;
  }
  footer {
-    border: solid cyan;
+    border: solid white 3px;
     margin: 10px;
     padding: 10px;
     background: url(/images/cybercity.jpg);
@@ -101,7 +97,7 @@ p {
  div.headerbox {
     margin: 30px;
     background-color: #762f6dcc ;
-    border: 1px solid black;
+    border: solid white 3px;
     opacity: 1;
     
   }
@@ -129,7 +125,7 @@ p {
    flex-direction: row;
    justify-content: space-around;
    align-items: center;
-   border: solid black;
+   border: solid white 3px;
    margin: 10px;
   }
   .mainnav {
@@ -145,8 +141,8 @@ p {
    padding: 5px;
   }
   .content {
-   background-image: linear-gradient(75deg,rgba(133, 16, 133, 0.6), rgba(166, 110, 6, 0.9));
-    border: solid rebeccapurple;
+   background-image: linear-gradient(75deg,rgba(133, 16, 133, 0.7), rgba(166, 110, 6, 0.7));
+    border: solid white 3px;
     margin: 10px;
     padding: 10px;
     width:fit-content;
@@ -160,11 +156,11 @@ p {
   }
   .projects {
    background-image: linear-gradient(75deg,rgba(133, 16, 133, 0.6), rgba(166, 110, 6, 0.9));
-    border: solid rebeccapurple;
+    border: solid white 3px;
     margin: 10px;
     padding: 10px;
     width:fit-content;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     width: 50%;
   }
@@ -178,7 +174,6 @@ p {
    width: 250px;
    height: 250px;
    border: solid whitesmoke;
-   background-image: linear-gradient(65deg, rgba(225, 141, 23, 0.6), rgba(184, 11, 193, 0.6));
    text-decoration: underline;
 }
   #boxcontainer {
@@ -188,4 +183,43 @@ p {
    justify-content: space-evenly;
    align-content: space-around;
    height: 600px;
+  }
+  #Box1 {
+   background-image: url(/images/rotate-lock-fill.png);
+   background-size: cover;
+  }
+  #Box2 {
+   background-image: url(/images/grid-line.png);
+   background-size: cover;
+  }
+  #Box3 {
+   background-image: url(/images/gamepad-fill.png);
+   background-size: cover;
+  }
+  #Box4 {
+   background-image: url(/images/at-fill.png);
+   background-size: cover;
+  }
+  #gitlink {
+   width: 300px;
+   height: 300px;
+   border: solid 20px whitesmoke;
+   text-decoration: underline;
+   margin: 10px;
+   background-image: url(/images/james-icon.png), linear-gradient(75deg,rgba(133, 16, 133, 0.6), rgba(166, 110, 6, 0.9));
+   background-size: cover;
+   font-size: 25px;
+   padding-top: 10px;
+   text-align: center;
+  }
+  
+  #gitgroup {
+   display: flex;
+   flex-direction: column;
+   height: 500px;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+  }
+  #furthercomments {
+   width: 99%;
   }
