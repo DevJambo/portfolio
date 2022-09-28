@@ -1,0 +1,225 @@
+:root {
+   --gradient-background: linear-gradient(65deg,rgba(133, 16, 133, 0.6), rgb(166, 110, 6))
+}
+
+* {
+   font-family: 'Russo One', sans-serif;
+}
+h1 {  
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    border: solid white 3px;
+    background-color: rgba(135, 50, 130, 0.626);
+    font-family: 'Bungee Spice', cursive;
+    font-size: 70px;
+    height: fit-content;
+    text-decoration: underline orange;
+}
+.superform {
+    background-image: var(--gradient-background);
+    border: solid white 3px;
+    margin: 10px;
+    padding: 10px;
+    width:fit-content;
+    font-size: 20px;
+}
+#pleaseContactMe {
+    font-size: 20px;
+    background-image: var(--gradient-background);
+    border: solid white 3px;
+    margin: 10px;
+    padding: 10px;
+    width:fit-content;
+    font-size: 25px;
+    font-weight: bold;
+    height: fit-content;
+}
+#box:checked + label {
+    color: green;
+}
+#socials a:visited {
+    color: green;
+}
+#socials a:active {
+    color: cyan;
+}
+
+p {
+    position: relative;
+ }
+
+ a[href] {
+    background-image: linear-gradient(75deg,rgba(133, 16, 133, 0.6), rgba(166, 110, 6, 0.9));
+    text-decoration: none;
+    border: solid white 3px;
+    padding: 10px;
+    color: floralwhite;
+ }
+ .myPic {
+    width: 200px;
+    height: 200px;
+ }
+ #mainheader {
+    display: flex;
+    justify-content: flex-start;
+    border: solid white 3px;
+    margin: 10px;
+    padding: 10px;
+    background: url(/images/cybercity.jpg);
+    background-size: contain;
+    font-size: large;
+    height: fit-content;
+ }
+ #mainpic {
+   display: flex;
+   justify-content: space-around;
+   width: 250px;
+   border: solid white 3px;
+ }
+ main {
+    border: solid white 3px;
+    margin: 10px;
+    padding: 10px;
+    background: url(/images/solen3.jpg);
+    background-size: cover;
+    color: azure;
+    font-weight: bold;
+ }
+ footer {
+    border: solid white 3px;
+    margin: 10px;
+    padding: 10px;
+    background: url(/images/cybercity.jpg);
+    color: white;
+ }
+ div.headerbox {
+    margin: 30px;
+    background-color: #762f6dcc ;
+    border: solid white 3px;
+    opacity: 1;
+    
+  }
+  .list {
+   
+   font-weight: bold;
+   text-decoration: line-through red wavy 2px;
+   font-size: 25px;
+   color: floralwhite;
+  }
+  #hotmess {
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: underline double;
+  color: floralwhite;
+  }
+  .content {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: flex-start;
+  }
+  #headercontent {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   border: solid white 3px;
+   margin: 10px;
+  }
+  .mainnav {
+   display: flex;
+   justify-content: space-evenly;
+   background: url(/images/cybercity.jpg);
+   font-size: 25px;
+   font-weight: bold;
+   height: 60px;
+   align-items: center;
+   text-decoration: underline 5px;
+   margin: 10px;
+   padding: 5px;
+  }
+  .content {
+   background-image: linear-gradient(75deg,rgba(133, 16, 133, 0.7), rgba(166, 110, 6, 0.7));
+    border: solid white 3px;
+    margin: 10px;
+    padding: 10px;
+    width:fit-content;
+    font-size: 20px;
+    font-weight: bold;
+    width: 45%;
+  }
+  h3 {
+   font-size: 25px;
+   text-decoration: underline;
+  }
+  .projects {
+   background-image: linear-gradient(75deg,rgba(133, 16, 133, 0.6), rgba(166, 110, 6, 0.9));
+    border: solid white 3px;
+    margin: 10px;
+    padding: 10px;
+    width:fit-content;
+    font-size: 25px;
+    font-weight: bold;
+    width: 50%;
+  }
+  .supercontent {
+   display: flex;
+   padding: 20;
+   margin: 20px;
+  }
+  .boxes {
+
+   width: 250px;
+   height: 250px;
+   border: solid whitesmoke;
+   text-decoration: underline;
+}
+  #boxcontainer {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   align-content: space-around;
+   height: 600px;
+  }
+  #Box1 {
+   background-image: url(/images/rotate-lock-fill.png);
+   background-size: cover;
+  }
+  #Box2 {
+   background-image: url(/images/grid-line.png);
+   background-size: cover;
+  }
+  #Box3 {
+   background-image: url(/images/gamepad-fill.png);
+   background-size: cover;
+  }
+  #Box4 {
+   background-image: url(/images/at-fill.png);
+   background-size: cover;
+  }
+  #gitlink {
+   width: 300px;
+   height: 300px;
+   border: solid 20px whitesmoke;
+   text-decoration: underline;
+   margin: 10px;
+   background-image: url(/images/james-icon.png), linear-gradient(75deg,rgba(133, 16, 133, 0.6), rgba(166, 110, 6, 0.9));
+   background-size: cover;
+   font-size: 25px;
+   padding-top: 10px;
+   text-align: center;
+  }
+  
+  #gitgroup {
+   display: flex;
+   flex-direction: column;
+   height: 500px;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+  }
+  #furthercomments {
+   width: 99%;
+  }
