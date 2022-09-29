@@ -182,7 +182,8 @@ p {
    flex-wrap: wrap;
    justify-content: space-evenly;
    align-content: space-around;
-   height: 600px;
+   height: 650px;
+   padding: 20px;
   }
   #Box1 {
    background-image: url(/images/rotate-lock-fill.png);
