@@ -119,6 +119,7 @@ p {
    flex-direction: column;
    flex-wrap: wrap;
    align-content: flex-start;
+   
   }
   #headercontent {
    display: flex;
@@ -149,6 +150,7 @@ p {
     font-size: 20px;
     font-weight: bold;
     width: 45%;
+    
   }
   h3 {
    font-size: 25px;
